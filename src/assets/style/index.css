@@ -8,7 +8,8 @@
   --white: #F4F4F4;
   --black: #1E1F1F;
   --gray: #848484;
-  --accent: #EF9F65;
+  /* --accent: #dc7835; */
+  --accent: #70b2c6;
 }
 
 html {
@@ -41,6 +42,7 @@ h2 {
 a {
   text-decoration: none;
   color: var(--black);
+  transition: 0.5s ease;
 }
 
 a:hover {
@@ -50,11 +52,17 @@ a:hover {
 button,
 .btn {
   padding: 1rem 2rem;
-  border: 2px solid var(--black);
+  border: 1px solid var(--black);
   background: none;
   color: var(--black);
   font-weight: bold;
   cursor: pointer;
+  transition: 1.5s ease;
+}
+
+button:hover,
+.btn:hover {
+  background-color: var(--accent);
 }
 
 img {
@@ -90,7 +98,7 @@ img {
 }
 
 .line {
-  border: 1px solid var(--black);
+  border-top: 1px solid var(--black);
 }
 
 .line-short {
@@ -105,6 +113,9 @@ img {
 
 .bold {
   font-weight: bold;
+}
+
+.big {
   font-size: 1.2em;
 }
 
