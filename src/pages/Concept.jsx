@@ -3,7 +3,6 @@ import img from '../assets/images/img-concept.png'
 export default function Concept() {
     return (
         <div className="container grid grid-small-wide">
-
             <div className="container__content  content">
                 <div className='content__title'>
                     <div className='line line-short'></div>
@@ -11,7 +10,6 @@ export default function Concept() {
                 </div>
                 <button className='container__btn'>Show More</button>
             </div>
-
             <div className="plh">
                 <div className='line'></div>
                 <div className="container__text">
@@ -21,7 +19,6 @@ export default function Concept() {
                 </div>
                 <div className='line'></div>
             </div>
-
             <img src={img} alt="concept blueprint" className='img container__img' />
         </div>
     )
