@@ -3,7 +3,7 @@ import imgNews_2 from '../assets/images/img-news-2-bridgehouse.png'
 
 export default function News() {
     return (
-        <div className="container grid-small-wide">
+        <div className="container grid grid-small-wide">
             <div className="container__content content">
                 <div className='content__title'>
                     <div className='line line-short' ></div>
