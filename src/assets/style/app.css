@@ -53,6 +53,7 @@ header {
   position: relative;
   margin-top: 2.5rem;
   min-height: 20rem;
+  border-top: 1px solid #1E1F1F;
 }
 
 .container__title {
@@ -72,7 +73,6 @@ header {
 .container__img {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--black);
 }
 
 .container__btn {
@@ -98,10 +98,26 @@ header {
 
 .container__form input,
 textarea {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   border: 1px solid var(--black);
+  border-radius: 2px;
   color: #1f1f1f;
   font-family: inherit;
+  outline: none;
+}
+
+.container__form input:hover,
+textarea:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 2px #848484;
+  -moz-box-shadow: inset 0px 0px 0px 2px #848484;
+  box-shadow: inset 0px 0px 0px 2px #848484;
+}
+
+.container__form input:focus,
+textarea:focus {
+  -webkit-box-shadow: inset 0px 0px 0px 2px #6FA0D8;
+  -moz-box-shadow: inset 0px 0px 0px 2px #6FA0D8;
+  box-shadow: inset 0px 0px 0px 2px #6FA0D8;
 }
 
 /* HERO/HOME */
@@ -116,7 +132,7 @@ textarea {
 .hero__img {
   width: 100%;
   height: auto;
-  border: 1px solid var(--black);
+  border-left: 2px solid var(--black);
 }
 
 .hero__content {
@@ -147,6 +163,7 @@ textarea {
 /* FOOTER */
 footer {
   padding: 0.5rem 0;
+  border-top: 1px solid #1E1F1F;
 }
 
 .footer__top {
@@ -162,6 +179,7 @@ footer {
 
 .footer__map-img {
   margin-top: 1rem;
+  border-left: 2px solid #1E1F1F;
 }
 
 .footer__contact-item {

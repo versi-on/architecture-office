@@ -9,7 +9,8 @@
   --black: #1E1F1F;
   --gray: #848484;
   /* --accent: #dc7835; */
-  --accent: #70b2c6;
+  /* --accent: #70b2c6; */
+  --accent: #6FA0D8;
 }
 
 html {
@@ -51,8 +52,9 @@ a:hover {
 
 button,
 .btn {
-  padding: 1rem 2rem;
-  border: 1px solid var(--black);
+  padding: 1.5rem 2rem;
+  border: 2px solid var(--black);
+  border-radius: 2px;
   background: none;
   color: var(--black);
   font-weight: bold;
@@ -65,8 +67,16 @@ button:hover,
   background-color: var(--accent);
 }
 
+.btn-filled {
+  background-color: #1E1F1F;
+  color: var(--white);
+}
+
+
 img {
   width: 100%;
+  border: none;
+  border-radius: 2px;
 }
 
 .row {
@@ -99,16 +109,6 @@ img {
 
 .line {
   border-top: 1px solid var(--black);
-}
-
-.line-short {
-  /* width: 335px; */
-  width: 325px;
-}
-
-.line-long {
-  width: 535px;
-  /* width: 688px; */
 }
 
 .bold {
