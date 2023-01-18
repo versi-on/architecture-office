@@ -23,7 +23,7 @@ export default function Footer() {
                         <img src={iconPhone} alt="phone" className='footer__contact-icon' width="20" height="20" />
                         <p>+1 212-965-0914</p>
                     </div>
-                    <div className='footer__contact-item'>
+                    <div className='footer__contact-item footer-contact'>
                         <img src={iconAddress} alt="address" className='footer__contact-icon' width="20" height="20" />
                         <div className='column'>
                             <p>55 Liberty St, 2nd Fl,</p>
@@ -34,16 +34,15 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer__map">
-                    <p className='bold'>Check the Map</p>
+                    <h3 className='bold_'>Check the Map</h3>
                     <img src={imgMap} alt="map" className='footer__map-img' />
                 </div>
                 <div className="footer__icons">
                     <IconsSocialMedia />
                 </div>
             </div>
-            <div className="footer__line"></div>
             <div className="footer__right row-center">
-                <p>copyright 2022 aRcHiTec | All rights reserved</p>
+                <p>copyright 2023 aRcHiTec | All rights reserved</p>
             </div>
         </footer>
     )
