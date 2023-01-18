@@ -36,7 +36,7 @@
 /* HEADER */
 header {
   align-items: center;
-  padding: 0.8rem 0;
+  padding: 1.2rem 0;
 }
 
 /* NAVBAR */
@@ -126,7 +126,7 @@ textarea:focus {
 }
 
 .hero-img-container {
-  width: 65.5rem;
+  width: 43.3em;
 }
 
 .hero__img {
@@ -138,6 +138,8 @@ textarea:focus {
 .hero__content {
   padding-left: 1rem;
   flex: 1;
+  justify-content: space-between;
+  border-top: 1px solid #1E1F1F;
 }
 
 .hero__title {
@@ -150,7 +152,6 @@ textarea:focus {
 }
 
 .hero__btn {
-  margin-left: 1.2rem;
   margin-bottom: 0.3rem;
 }
 
