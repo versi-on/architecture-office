@@ -7,13 +7,13 @@
 /* ICONS */
 .icons {
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   margin-left: auto;
 }
 
 .icons img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
 }
 
@@ -170,7 +170,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1rem 0;
+  padding: 1rem 0 1.5rem 0;
 }
 
 .footer__icons {
@@ -179,25 +179,40 @@ footer {
 
 .footer__map-img {
   margin-top: 1rem;
-  border-left: 2px solid #1E1F1F;
+  border-left: 1px solid #1E1F1F;
 }
 
 .footer__contact-item {
   display: flex;
   gap: 0.5rem;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 0.5rem;
 }
 
+.footer-contact {
+  align-items: flex-start;
+}
+
+.footer-contact img {
+  margin-top: 0.3rem;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__contact-item {
+  padding: 0.3rem 0;
+}
+
 .footer__contact-item img {
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
 }
 
 .footer__right {
   font-size: 0.8em;
-  padding: 0.8rem 0 0.3rem 0;
+  padding: 1rem 0 0.3rem 0;
   color: var(--gray);
+  border-top: 1px solid #c3c3c3;
 }
 
 .footer__line {
