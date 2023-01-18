@@ -6,7 +6,6 @@ export default function News() {
         <div className="container grid grid-small-wide">
             <div className="container__content content">
                 <div className='content__title'>
-                    <div className='line line-short' ></div>
                     <h2 className="container__title">Latest News</h2>
                 </div>
                 <button className='container__btn'>Show More</button>
