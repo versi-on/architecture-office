@@ -8,7 +8,6 @@ import iconAddress from '../assets/icons/icon-home.png'
 export default function Footer() {
     return (
         <footer className='column'>
-            <div className="footer__line"></div>
             <div className="footer__top footer row">
                 <div className="footer__logo footer-item">
                     <Link to="/" className="link logo">aRcHiTec</Link>
