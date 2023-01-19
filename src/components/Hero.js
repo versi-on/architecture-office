@@ -7,19 +7,16 @@ export default function Hero() {
             <div className="hero-img-container">
                 <img src={heroImg} alt="hero" className='hero__img' width="700" />
             </div>
-            <div className="hero-content-container column">
-                <div className='line line-long'></div>
-                <div className="hero__content">
-                    <h1 className='hero__title'>We <span className='bold big'>design </span> cities, <br />
-                        <span className='bold'> buildings </span> and <span className='bold'>places</span> <br /> with a <span className='big'> strong sense </span> <br />
-                        <span className='bold'>  of purpose </span> and <span className='bold'> identity</span>
-                    </h1>
-                    <p className='hero__text'>
+            <div className="hero__content column">
+                <h1 className='hero__title'>We <span className='bold '>design </span> cities, <br />
+                    <span className='bold'> buildings </span> and <span className='bold'>places</span> <br /> with a strong sense <br />
+                    of <span className='bold'> purpose </span> and <span className='bold'> identity</span>
+                </h1>
+                {/* <p className='hero__text'>
                         Architecture studio <span className='bold_'> aRcHiTec </span>
                         is a lead class in a graduate professional architecture program for different kind of projects.
-                    </p>
-                </div>
-                <button className='container__btn hero__btn'>More About US</button>
+                    </p> */}
+                <button className='container__btn hero__btn'>more about us</button>
             </div>
         </div>
     )
