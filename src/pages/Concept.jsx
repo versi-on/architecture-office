@@ -7,7 +7,7 @@ export default function Concept() {
                 <div className='content__title'>
                     <h2 className="container__title">Our Concept</h2>
                 </div>
-                <button className='container__btn'>Show More</button>
+                <button className='container__btn'>read more</button>
             </div>
             <div className="plh">
                 <div className="container__text">

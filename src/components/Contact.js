@@ -12,7 +12,7 @@ export default function Contact() {
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                     <textarea cols="30" rows="10" placeholder='Type your message here...'></textarea>
-                    <button className='container__btn btn-filled'>Send</button>
+                    <button className='container__btn btn-filled'>send</button>
                 </form>
             </div>
         </div>
