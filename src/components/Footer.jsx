@@ -29,7 +29,7 @@ export default function Footer() {
                             <p>55 Liberty St, 2nd Fl,</p>
                             <p>New York,</p>
                             <p>NY 10005,</p>
-                            <p>Vereinigte Staaten</p>
+                            <p>United States</p>
                         </div>
                     </div>
                 </div>
