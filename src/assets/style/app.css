@@ -223,6 +223,22 @@ textarea:focus {
 }
 
 /* CONTACT */
+.contact-page .contact {
+  margin-top: 0.5rem;
+}
+
+.contact-page img {
+  height: 30rem;
+}
+
+.contact-page .content__title {
+  padding-top: 0.9rem;
+}
+
+.contact-page textarea {
+  height: 12rem;
+}
+
 .contact {
   margin: 3.5rem 0;
 }
