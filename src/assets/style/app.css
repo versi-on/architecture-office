@@ -184,6 +184,43 @@ textarea:focus {
   height: 30rem;
 }
 
+/* OFFICE */
+.office__container {
+  margin-bottom: 3.5rem;
+  border-top: 1px solid #1E1F1F;
+}
+
+.office__hero-image {
+  width: 38em;
+  margin-right: 1.5rem;
+}
+
+.office__content {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.office__title {
+  padding: 0.8rem 0;
+  font-size: 1.8em;
+}
+
+.office__content p {
+  padding: 0.5rem 0;
+}
+
+
+.office__images {
+  gap: 1rem;
+}
+
+.container__btn {
+  margin-bottom: auto;
+}
 
 /* CONTACT */
 .contact {
