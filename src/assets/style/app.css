@@ -164,6 +164,7 @@ textarea:focus {
 .hero__title {
   margin: 1rem 0;
   padding-bottom: 1rem;
+  flex: 1;
 }
 
 .hero__text {
