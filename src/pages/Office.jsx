@@ -1,4 +1,4 @@
-import Contact from '../components/Contact'
+import Contact from '../components/ContactUs'
 import imgOfficeBuildings from '../assets/images/img-office-buildings.png'
 import imgOffice1 from '../assets/images/img-office-1.png'
 import imgOffice2 from '../assets/images/img-office-2.png'
@@ -35,7 +35,6 @@ export default function Office() {
                 <img src={imgOffice3} alt="office" className='' />
                 <img src={imgOffice4} alt="office" className='' />
             </div>
-
             <Contact />
         </div>
     )

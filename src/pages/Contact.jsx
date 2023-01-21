@@ -1,5 +1,9 @@
+import ContactUs from '../components/ContactUs'
+
 export default function Contact() {
     return (
-        <div>Contact</div>
+        <div className='contact-page'>
+            <ContactUs />
+        </div>
     )
 }
