@@ -39,13 +39,13 @@ export default function News() {
                             Lorem ipsum dolor sit amet consectetur. Mauris fringilla gravida.
                         </p>
                         <p>
-                            Augue sed non leo in blandit ullamcorper maecenas hkjfrtzh diam. Faucibus varius hendrerit ultricies morbi a felis mi quam. Convallis nulla accumsan viverra ut amet odio lectus eu amet.
+                            Augue sed non leo in blandit ullamcorper maecenas hkjfrtzh diam. Faucibus varius hendrerit morbi a felis mi quam. Convallis nulla accumsan viverra ut amet odio lectus eu amet.
                         </p>
                         <p>
                             Facilisis eu consectetur at lectus turpis platea metus enim volutpat.
                         </p>
                         <p>
-                            nteger cras accumsan etoj est ametoli nunct. Dolor pretium sed est etiam neque pharetra quis commodo. Egestas nec ipsum eu euismod dictumst turpis.
+                            Sretium sed est etiam neque pharetra quis commodo. Egestas nec ipsum eu euismod dictumst turpis.
                         </p>
                     </div>
                     <button className='container__btn'>load more</button>
