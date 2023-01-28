@@ -42,7 +42,12 @@ h2 {
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.title {
+  padding: 0.8rem 0;
+  font-size: 1.8em;
 }
 
 a {

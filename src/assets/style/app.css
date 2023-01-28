@@ -175,14 +175,66 @@ textarea:focus {
   margin-bottom: 0.3rem;
 }
 
-/* NEWS */
-.news {
-  height: 28rem;
-}
-
 /* PROJECTS */
 .projects {
   height: 30rem;
+}
+
+/* NEWS */
+.news {
+  border-top: 1px solid #1E1F1F;
+}
+
+.news-hero {
+  margin-bottom: 3rem;
+}
+
+.news-hero__image {
+  width: 38em;
+  margin-right: 1.5rem;
+}
+
+.all-news-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-auto-columns: auto;
+}
+
+.all-news-container .title {
+  padding: 0 0 0.5rem 0;
+}
+
+.news-images {
+  padding-top: 1.0rem;
+}
+
+.news-image {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.news-text {
+  flex: 1;
+  margin-top: 2.5rem;
+}
+
+.news-text p {
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.news-link {
+  font-weight: 700;
+  transition: 0.8s ease-in-out;
+}
+
+.news-link:hover {
+  color: var(--accent);
+}
+
+.all-news-first-column {
+  border-top: 1px solid #1E1F1F;
 }
 
 /* OFFICE */
