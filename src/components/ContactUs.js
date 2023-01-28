@@ -5,7 +5,7 @@ export default function ContactUs() {
         <div className="contact container grid grid-even">
             <img src={img} alt="architecture building" className='img container__img grid-item-wide' />
             <div className="container__content content">
-                <h2 className="content__title">Contact our Office</h2>
+                <h2 className="title">Contact our Office</h2>
                 <form className='container__form column'>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
