@@ -9,7 +9,6 @@ export default function Header() {
         setIsActive(!isActive)
     }
 
-
     return (
         <header className='header row'>
             <Link to="/" className="link logo">aRcHiTec</Link>
