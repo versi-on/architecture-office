@@ -1,8 +1,9 @@
 import { BrowserRouter } from 'react-router-dom';
 import AllRoutes from './AllRoutes';
 import Header from './components/Header';
-import './assets/style/app.css';
 import Footer from './components/Footer';
+import './assets/style/app.css';
+import './assets/style/responsive.css';
 
 function App() {
 

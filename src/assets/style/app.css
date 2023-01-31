@@ -43,6 +43,7 @@ header {
 .nav {
   width: 609px;
   gap: 6rem;
+  display: flex;
   justify-content: flex-end;
   position: relative;
 }
@@ -68,6 +69,10 @@ nav a:hover:before {
 
 nav a:hover {
   color: var(--black);
+}
+
+.menu-icon {
+  order: 2;
 }
 
 /* CONTAINER */
@@ -381,12 +386,4 @@ footer {
 
 .grid-wide-small {
   grid-template-columns: 330px 1fr 350px;
-}
-
-/* RESPONSIVE */
-@media screen and (min-width: 1400px) {
-  .nav {
-    width: 782px;
-    gap: 9.5rem;
-  }
 }

@@ -1,0 +1,51 @@
+/* RESPONSIVE */
+@media screen and (min-width: 1400px) {
+    .nav {
+        width: 782px;
+        gap: 9.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
+    .nav {
+        display: none;
+        opacity: 0;
+        flex-direction: column;
+
+    }
+
+
+    .nav.active {
+        display: flex;
+        opacity: 1;
+        height: auto;
+        position: absolute;
+        top: 4.5rem;
+        padding: 0 0 5rem 0;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-top: 2px solid var(--black);
+        z-index: 100;
+    }
+
+    .nav.active a {
+        margin: 0 0 -3rem 0;
+        padding: 0;
+    }
+
+    .nav.active a:first-child {
+        margin-top: 1rem;
+    }
+
+    .menu-icon {
+        margin-left: 1rem;
+    }
+
+    footer .icons {
+        margin-top: 1rem;
+        gap: 3rem;
+    }
+}
