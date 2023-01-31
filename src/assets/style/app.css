@@ -66,6 +66,10 @@ nav a:hover:before {
   width: 1.5rem;
 }
 
+nav a:hover {
+  color: var(--black);
+}
+
 /* CONTAINER */
 .container {
   display: flex;
@@ -180,6 +184,23 @@ textarea:focus {
   height: 30rem;
 }
 
+.projects-page-container-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 322px 495px 495px);
+  gap: 20px;
+  margin: 0.8rem 0 3rem 0;
+  border-top: 1px solid #1E1F1F;
+}
+
+.projects-page p {
+  padding: 0.8rem 0;
+}
+
+.images-line {
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
 /* NEWS */
 .news {
   border-top: 1px solid #1E1F1F;
@@ -187,26 +208,19 @@ textarea:focus {
 
 .news-hero {
   margin-bottom: 3rem;
-}
-
-.news-hero__image {
-  width: 38em;
-  margin-right: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 39rem);
+  gap: 20px;
 }
 
 .all-news-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  grid-auto-columns: auto;
 }
 
 .all-news-container .title {
   padding: 0 0 0.5rem 0;
-}
-
-.news-images {
-  padding-top: 1.0rem;
 }
 
 .news-image {
