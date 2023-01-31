@@ -73,6 +73,7 @@ nav a:hover {
 
 .menu-icon {
   order: 2;
+  opacity: 0;
 }
 
 /* CONTAINER */

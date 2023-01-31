@@ -42,8 +42,17 @@
 
     .menu-icon {
         margin-left: 1rem;
+        opacity: 1;
     }
 
+
+    /* grid */
+    .grid-even {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* FOOTER */
     footer .icons {
         margin-top: 1rem;
         gap: 3rem;
