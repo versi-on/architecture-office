@@ -2,7 +2,7 @@ import img from '../assets/images/img-concept.png'
 
 export default function Concept() {
     return (
-        <div className="container grid grid-small-wide">
+        <div className="container grid grid-small-wide concept">
             <div className="container__content  content">
                 <div className='content__title'>
                     <h2 className="container__title">Our Concept</h2>

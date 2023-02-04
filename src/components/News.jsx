@@ -10,7 +10,7 @@ export default function News() {
                 </div>
                 <button className='container__btn'>read more</button>
             </div>
-            <img src={imgNews_1} alt="simone-hutsch" className='container__img img-small' />
+            <img src={imgNews_1} alt="simone-hutsch" className='container__img img-small news-img-1' />
             <img src={imgNews_2} alt="bridgehouse" className='container__img img-wide' />
         </div>
     )

@@ -30,7 +30,7 @@ export default function News() {
             <div className='all-news-container'>
                 <div className='all-news-first-column column'>
                     <h2 className='title'>More news</h2>
-                    <img src={imgNewsLong} alt="abstract architecture" className='' />
+                    <img src={imgNewsLong} alt="abstract architecture" className='all-news-img-1' />
                 </div>
                 <div className='column'>
                     <div className='news-text'>
