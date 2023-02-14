@@ -166,23 +166,18 @@ textarea:focus {
 
 .hero__content {
   padding-left: 1rem;
-  flex: 1;
   justify-content: space-between;
   border-top: 1px solid #1E1F1F;
 }
 
 .hero__title {
   margin: 1rem 0;
-  padding-bottom: 1rem;
-  flex: 1;
-}
-
-.hero__text {
-  width: 19rem;
+  /* flex: 1; */
+  height: 22.8rem;
 }
 
 .hero__btn {
-  margin-bottom: 0.3rem;
+  margin-top: -1rem !important;
 }
 
 /* PROJECTS */
