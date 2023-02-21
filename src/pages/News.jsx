@@ -54,22 +54,22 @@ export default function News() {
                 <div className='news-images column'>
                     <div className='news-image'>
                         <img src={imgNews1} alt="News" className='' />
-                        <a href="#" className='news-link'>news link</a>
+                        <a href="/#" className='news-link'>news link</a>
                     </div>
                     <div>
                         <img src={imgNews2} alt="News" className='' />
-                        <a href="#" className='news-link'>news link</a>
+                        <a href="/#" className='news-link'>news link</a>
                     </div>
                 </div>
 
                 <div className='news-images column'>
                     <div className='news-image'>
                         <img src={imgNews3} alt="News" className='' />
-                        <a href="#" className='news-link'>news link</a>
+                        <a href="/#" className='news-link'>news link</a>
                     </div>
                     <div>
                         <img src={imgNews4} alt="office" className='' />
-                        <a href="#" className='news-link'>news link</a>
+                        <a href="/#" className='news-link'>news link</a>
                     </div>
                 </div>
             </div>

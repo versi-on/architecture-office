@@ -15,7 +15,7 @@ export default function Projects() {
                     <h2 className="title">Projects</h2>
                     <img src={imgProjects1} alt="project building one" />
                     <p>Mauris fringilla consectetur gravida integer cras accumsan et kipsum est amet nunc. </p>
-                    <a href="#" className='link'>read more</a>
+                    <a href="/#" className='link'>read more</a>
                 </div>
                 <div className="projects-page-cln-2">
                     <p>
@@ -26,7 +26,7 @@ export default function Projects() {
                         Delor pretium sed est etiam neque pharetra quis commodo. Egestas nec ipsum eu euismod dictumst turpis.
                         Augue sed non leo in blandit ullamcorper maecenas diam.
                     </p>
-                    <a href="#">read more</a>
+                    <a href="/#">read more</a>
                 </div>
                 <div className="projects-page-cln-3">
                     <img src={imgProjects3} alt="project building three" />
