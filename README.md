@@ -8,4 +8,4 @@ The mockup/prototype I created with Figma.
 ![screenshot](./src/assets/screenshot-project-architecture.png)
 
 
-[live demo]([https://github.com/facebook/create-react-app](https://architec-version.netlify.app/)https://architec-version.netlify.app/)
+[live demo](https://architec-version.netlify.app/)
